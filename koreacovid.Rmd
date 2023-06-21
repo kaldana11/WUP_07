@@ -78,3 +78,9 @@ fisher.test(table1)
 
 ## Conclusions
 
+ In today's lesson I learned to do a ggplot with the helper's file. I changed the class for result and name the project kRdata. I was also able to create a numerical graph in % and counting. I also ran a chi-square test and a fisher's test and both are equal in p value. The final result is: that we want to know what the odds are of this happening. All of the males are the ones who has a higher chance of death vs woman during COVID-19 in this South Korea study. We can conclude that men are not likely to die equally as of woman; since woman have more of the advantage of survival than males.
+
+
+
+
+
