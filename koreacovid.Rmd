@@ -34,16 +34,24 @@ state of a patient must be died or alive - we adjust that as well
   We will analyze the sex of the patients and the results if they are alive or dead. I will use the variables in my collection of Cat~cat. This is a type of problem that we can use the helper file and we will copy into our project to get the answer if dying is independent of sex. 
 
 
-
-
-
 ## Graphical results - use ggplot commands to do this  
+```{r}
+dd2 <- kRdata %>% group_by(result,Sex) %>% summarize(count=n()) %>% mutate(prcnt=count/sum(count))
 
 
+# the group_by followed by summarize(count=n())
 
+basicC <- ggplot(dd2,aes(x=result,y=count,fill=Sex))
+basicC + geom_bar(stat="identity",position="dodge")
+
+#Now for percentage plot
+
+basicCC <- ggplot(dd2,aes(x=result,y=prcnt*100,fill=Sex)) 
+basicCC + geom_bar(stat="identity", position = "dodge")
+```
+
+ The data in this bar plot allows us to see the results of the alive and dead people. We can see that twice as many males died more than females. The disease are killing more males than females according to the data investigated from South Korea 
   
-
-
 
 
 
