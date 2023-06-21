@@ -72,7 +72,7 @@ chisqtestGC(table1)
 fisher.test(table1)
 ```
 
- 
+ In the group of 1831 were alive and 1411, in all more female are alive than male. The p value is 1 out of a thousand in the Chi-Square. It is a small chance to get a male and female dying. In the fisher test, 9 out of 10,000, the are about the same p value. You can also see the odds of female against the odds of male dying. We want to know that the odds this is happening. Women have a 2.3% higher chance of surviving COVID-19 than males in the South Korea investigation.
 
 
 
